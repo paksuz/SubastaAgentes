@@ -15,7 +15,7 @@ import ontology.ReadCsv;
 
 /**
  *
- * @author ferta
+ * @author fert
  */
 public class AgenteRacional_v2 extends Agent {
 
@@ -25,7 +25,7 @@ public class AgenteRacional_v2 extends Agent {
     ;
     private int wallet;
     private AgenteRacionalGUI pujadorGUI;
-    private String ruta = "C:\\Users\\ferta\\Desktop\\u\\Tesis\\JadeEjemplos\\TesisFinal\\src\\datos_in\\subasta_15_AgenteRacional.csv";
+    private String ruta = "./src/datos_in/subasta_15_AgenteRacional.csv";
 
     public void setup() {
 

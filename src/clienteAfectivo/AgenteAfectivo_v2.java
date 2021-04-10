@@ -26,7 +26,7 @@ public class AgenteAfectivo_v2 extends Agent {
     private Ontology ontology = OntologiaSubasta.getInstance();
     private Codec codec = new SLCodec();;
     private AgenteAfectivoGUI pujadorGUI;
-    private String ruta = "C:\\Users\\ferta\\Desktop\\u\\Tesis\\JadeEjemplos\\TesisFinal\\src\\datos_in\\subasta_15AgenteAfectivo.csv";
+    private String ruta = "./src/datos_in/subasta_15AgenteAfectivo.csv";
     
     public void setup(){
         

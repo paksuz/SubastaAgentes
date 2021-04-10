@@ -29,7 +29,7 @@ import ontology.OntologiaSubasta;
 public class Subastador_v2 extends Agent {
 
     private ArrayList<Producto> productos;
-    String ruta = "C:\\Users\\ferta\\Desktop\\u\\Tesis\\JadeEjemplos\\TesisFinal\\src\\datos_in\\subasta_15.csv";
+    String ruta = "./src/datos_in/subasta_15.csv";
     private Ontology ontology = OntologiaSubasta.getInstance();
     private Codec codec = new SLCodec();
     private boolean flag;
