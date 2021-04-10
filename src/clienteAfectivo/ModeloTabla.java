@@ -29,7 +29,7 @@ public class ModeloTabla extends AbstractTableModel {
 
 	@Override
 	public int getColumnCount() {
-		return 3;
+		return 4;
 	}
 
 	@Override
@@ -44,6 +44,8 @@ public class ModeloTabla extends AbstractTableModel {
 			break;
                 case 2:
                         tmp = "Estado";
+                
+                case 3: tmp ="Factor Somatico";
 		}
 		return tmp;
 	}
@@ -65,6 +67,8 @@ public class ModeloTabla extends AbstractTableModel {
                 case 2:
                     
                         return tmp.get(rowIndex).getEstado();
+                
+                case 3: return tmp.get(rowIndex).getFactor();
                         
 		}
 		return "default";
